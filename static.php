@@ -23,12 +23,12 @@
 	 	}
 	 }
 
-	  $obj = new Contoh;
-	  echo $obj->halo();
-	  echo $obj->halo();
-	  echo $obj->halo();
+	$obj = new Contoh;
+	echo $obj->halo();
+	echo $obj->halo();
+	echo $obj->halo();
 
-  echo "<hr>";
+  	echo "<hr>";
 
 	$obj2 = new Contoh;
 	echo $obj2->halo();
