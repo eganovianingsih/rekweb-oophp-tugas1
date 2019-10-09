@@ -58,9 +58,6 @@ class Produk{//sebuah class
 	}
 
 
-
-
-
 	$produk1 = new Komik("Naruto","Masashi Kishimoto","Shonen Jump",30000,100,0);
 	$produk2 = new Game("Unceharted","Neil Druckmann","Sony Computer",250000,0,50);
 	
