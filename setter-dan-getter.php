@@ -91,7 +91,6 @@ class Produk{//sebuah class
 		}
 	}
 
- 
 
 	class Game extends Produk{
 		public $waktuMain;
