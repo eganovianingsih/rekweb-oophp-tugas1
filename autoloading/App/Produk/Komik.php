@@ -9,7 +9,6 @@
 		}
 
 
-
 		public function getInfo(){
 		$str = "{$this->judul} | {$this->getLabel()} (Rp. {$this->harga})";
 		
@@ -17,11 +16,11 @@
 	}
 
 
-	public function getInfoProduk(){
-			$str = "Komik : " . $this->getInfo() . " - {$this->jmlHalaman} Halaman.";
-			return $str;
+		public function getInfoProduk(){
+				$str = "Komik : " . $this->getInfo() . " - {$this->jmlHalaman} Halaman.";
+				return $str;
+			}
 		}
-	}
 
  
 
