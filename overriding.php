@@ -58,8 +58,8 @@ class Produk{//sebuah class
 		public function getInfoProduk(){
 			$str = "Game : " . parent::getInfoProduk() . "  ~ {$this->waktuMain} Jam.";
 			return $str;
+		}
 	}
-}
 
 	class CetakInfoProduk{
 		public function cetak(Produk $produk){
@@ -67,9 +67,6 @@ class Produk{//sebuah class
 			return $str;
 		}
 	}
-
-
-
 
 
 	$produk1 = new Komik("Naruto","Masashi Kishimoto","Shonen Jump",30000,100);
