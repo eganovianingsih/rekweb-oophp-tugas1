@@ -20,8 +20,6 @@ class Produk{//sebuah class
 	public function getLabel(){
 		return "$this->penulis,$this->penerbit";
 	}
-
-		
 }
 
 	class CetakInfoProduk{
