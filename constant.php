@@ -26,10 +26,10 @@
 
 	// echo coba();
 
-class Coba{
-	public $kelas = __CLASS__;
-}
+	class Coba{
+		public $kelas = __CLASS__;
+	}
 
-$obj = new Coba;
-echo $obj->kelas;
- ?>
+	$obj = new Coba;
+	echo $obj->kelas;
+	 ?>
