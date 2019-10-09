@@ -12,9 +12,9 @@
 			
 	foreach($this->daftarProduk as $p ){
 		$str .= "-{$p->getInfoProduk()} <br>";
-}
+	}
 
 	return $str;
 	}
-	}
+}
  ?>
